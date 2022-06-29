@@ -39,11 +39,11 @@ setup(
             'fbs/installer/mac', 'create-dmg'
         )
     },
-    install_requires=['PyInstaller==5.1'],
+    install_requires=['PyInstaller'],
     extras_require={
         # Also update requirements.txt when you change this:
-        'licensing': ['rsa>=3.4.2'],
-        'sentry': ['sentry-sdk>=0.6.6'],
+        'licensing': ['rsa'],
+        'sentry': ['sentry-sdk'],
         'upload': ['boto3']
     },
     classifiers=[
@@ -56,8 +56,6 @@ setup(
     
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
 
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules'
